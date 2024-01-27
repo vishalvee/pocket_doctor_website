@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Doctor</title>
+    <link rel="stylesheet" href="home.css">
+    <!-- faVicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+ <!--- 
+    <div class="hero">
+        <nav>
+            <img src="_62581824-eb60-4b49-DDa18d-2a824d6d9ab3-removebg-preview.png" class="user-pic">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+--->
+
+    <header>
+        <nav id="mainNaV">
+            <h1 id="heading">PD</h1>
+
+            <div id="show">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contects</a></li>
+                <li><a href="#">Website</a></li>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="logo">
+        <img src="blackdp2.png" alt="ssss">
+    </div>
+   <div class="start">
+       <a href="http://localhost/adminpanelvee/admin_page.php">
+        <button>DETAILS</button>
+       </a>
+    </div>
+
+
+
+
+
+
+<!---
+<div class="mid">
+    <img src="midbg.png" alt="" srcset="">
+</div>
+-->
+<script>
+let mainNaV=document.getElementById('mainNaV');
+let heading=document.getElementById('heading');
+    let show=document.getElementById('show');
+function showLinks(){
+   show.style.display="flex";
+   mainNaV.style.borderRadius="6px";
+}
+heading.addEventListener('click',showLinks) ;
+</script>
+</body>
+</html>
