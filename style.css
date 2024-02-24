@@ -1,132 +1,211 @@
-body{
-
-   
-    background-image:url('bg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-
+body {
 
 }
-*{
-    font-family: 'Poppins',sans-serif;
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
-html{
-    font-size: 62.5;
-    overflow: hidden;
+html {
+  font-size: 62.5;
 }
-.container{
-    max-width: 1200px;
-    padding: 2rem;
-    margin: 0 auto;
+.container {
+  padding-top: 3%;
+  position: relative;
+}
+
+
+.bodyImg img{
+position: absolute;
+top: 0;
+left: 0;
+width: 98.9vw;
+height: 100vh;
+z-index: -1;
 }
 .admin_product form {
- 
- max-width: 50rem;
- margin: 0 auto;
- padding: 2rem;
- border-radius: .5rem;
-background-color: rgba(255, 248, 112, 0.694);
+  width: 45%;
+  margin-left: 27.5%;
+  border-radius: 0.5rem;
+  background-color:#92a0fb;
 }
-.admin_product form h3{
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    margin-bottom:1rem ;
-    text-align: center;
-    font-size: 2.5rem;
-    background-color: black;
-    border-radius: 5px;
-    
-}
-
-.btn{
-
-    display: block;
-    width: 30%;
-    cursor: pointer;
-    border-radius: .5rem;
-    font-size: 1.7rem;
-    margin-left:70%;
-    margin-top: -5%;
-    color: white;
-    background-color:black;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    
+.admin_product form h3 {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 80%;
+padding-top: 1%;
+padding-bottom: 1%;
+  margin-left: 10%;
+  font-size: 2.1rem;
+  background-color: black;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius: 10px;
 }
 
-.btn:hover{
-    cursor: pointer;
-    background-color: #fb0d0d;
+.btn {
+  display: block;
+  width: 30%;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  margin-left: 70%;
+  margin-top: -5%;
+  color: white;
+  background-color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ec67a3;
 }
 .message {
-    display: block;
-    background: rgb(0, 0, 0);
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-left: 3px;
-    padding: 1px;
-    text-align: center;
+  display: block;
+  background: rgb(245 101 158);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-left: 3px;
+  padding: 1px;
+  text-align: center;
+}
+
+/* .box1 {
+  display: block;
+  width: 41%;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  color: white;
+  background-color: black;
+  font-size: 22px;
+} */
+
+.admin_product form .box {
+  color: rgb(29, 27, 19);
+  font-family: monospace;
+  font-size: 18px;
+  outline: none;
+
+  border: 2px solid #ffffff;
+}
+.admin_product form textarea {
+  resize: none;
+}
+.admin_product form .box {
+  border-radius: 0.5rem;
+  font-size: 25px;
+  margin: 1rem 0;
+  width: 90%;
+  margin-left: 5%;
+  padding: 11px 20px;
+}
+#raja{
+  border-radius: 0.5rem;
+  font-size: 25px;
+  margin: 1rem 0;
+  margin-left: 5%;
+  width: 90% !important;
+}
+
+.admin_product form .box:hover {
+  cursor: pointer;
+  border: 2px solid #000000;
+  background: rgb(254, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 
-
-.box1{
-
-    display: block;
-    width: 41%;
-    cursor: pointer;
-    border-radius: .2rem;
-    margin-left:2%;
-    margin-top: 16%;
-    color: white;
-    background-color:black;
-    padding: 4px;
-    font-size: 22px;
-    
+.btnBox{
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
+.btnBox .box1{
+  width: 41%;
+display: block;
+cursor: pointer;
+border-radius: 0.2rem;
+margin-left: 2%;
+margin-bottom: 5%;
+padding-left: 2%;
+padding-top: 1.4%;
+padding-bottom: 1.4%;
+color: white;
+background-color: black;
+font-size: 18px;
+}
+
+.btnBox .submit_btn{
+width: 43%;
+display: block;
+cursor: pointer;
+border-radius: 0.2rem;
+margin-left: 2%;
+margin-right: 2%;
+margin-bottom: 5%;
+padding-top: 1.4%;
+padding-bottom: 1.4%;
+color: white;
+background-color: black;
+font-size: 22px;
+}
+
+.btnBox .submit_btn:hover{
+   background-color: rgb(67, 193, 29);
+}
+
 .box1:hover{
-    background-color: rgba(220, 184, 39, 0.775);
-    color: black;
-    }
-
-.admin_product form .box{
-    color: rgb(29, 27, 19);
-    font-family: monospace;
-    font-size: 18px;
-    
-}
-.admin_product form .box{
-    border-radius: .5rem;   
-    font-size: 25px;
-    margin: 1rem 0;
-    background: rgba(255, 234, 234, 0.845);
-    padding: 11px 80px;
-    margin: 10PX;
-}
-.admin_product form .box:hover{
-    cursor: pointer;
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+  border-color: #a490ff;
+  border: 1px solid rgb(255, 183, 0);
 }
 
-@media(max-width:991px){
-    html{
-        font-size:55%;
-    }
+.btnVoice{
+
+  width: 43%;
+display: block;
+cursor: pointer;
+margin-left: 30%;
+margin-bottom: 5%;
+padding-top: 1%;
+padding-bottom: 1%;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+font-size: 15px;
+border-top-left-radius:10px;
+border-top-right-radius: 10px;
 }
-@media(max-width:450px){
-    html{
-        font-size:50%;
-    }
+.btnVoice img{
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 90%;
+  background-color: #ffffff;
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+}
+.btnVoice:focus{
+  background-color: #ec67a3;
+  color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }
