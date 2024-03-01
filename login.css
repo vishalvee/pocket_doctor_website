@@ -35,15 +35,11 @@ div.container div.myform{
     margin-left: 40%;
 }
 
-
 div.container div.myform h2{
     color: black;
     margin-top: 20px;
     margin-bottom: 8%;
 }
-
-
-
 
 div.container div.myform input{
     border: none;
@@ -62,11 +58,12 @@ div.container div.myform button{
     border: none;
     outline: none;
     border-radius: 2px;
-    font-size: 18px;
-    margin-left: 74%;
-    padding: 5px 12px;
+    font-size: 17px;
+    margin-left: 72%;
+    padding: 5px 14px;
     font-weight: 500;
 }
+
 div.container div.myform button a{
     text-decoration: none;
     color: white;
@@ -75,5 +72,26 @@ div.container div.myform button a{
 div.container div.myform button:hover{
     cursor: pointer;
     color: rgb(255, 255, 255);
-    background-color:#f85aa1b8;
+    background-color: #f85aa1b8;
+}
+.show_hide button{
+    color: rgb(255, 255, 255);
+    background-color: #fa0473b8;
+    border: 2px solid rgb(255, 255, 255);
+  margin-left: -306%;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 5px 14px;
+  font-weight: 500;
+  margin-top: 235%;
+
+}
+.show_hide button:focus{
+    background-color: #f85aa1b8;
+    border: 2px solid rgb(241, 210, 239);
+  
+}
+.show_hide button:hover{
+    cursor: pointer;
+  
 }
